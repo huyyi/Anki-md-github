@@ -2,6 +2,11 @@
 支持Github Markdown样式的Anki卡片模板，修改自Anki-KaTeX-Markdown。
 
 ## 使用指南
+### 直接使用牌组包
+1. 在release下载牌组包
+2. 用模板`KaTeX and Markdown Basic`创建新卡片
+
+### 自行修改模板
 1. 安装`Anki-KaTeX-Markdown`插件
 2. 下载 `_github-markdown.css` 样式文件，放到媒体文件目录.
 3. 修改卡片样式

@@ -2,6 +2,11 @@
 This is an anki card template with markdown support using github markdown style.
 
 ## How to use 
+### Use apkg
+1. Download the apkg in release.
+2. Create cards use template `KaTeX and Markdown Basic`
+
+### Alter by yourself
 1. Install `Anki-KaTeX-Markdown` addon.
 2. Download `_github-markdown.css` and place it to account media folder.
 3. Edit card template 
