@@ -1,21 +1,21 @@
 # Anki-md-github
-This is an anki card template with markdown support using github markdown style.
+支持Github Markdown样式的Anki卡片模板，修改自Anki-KaTeX-Markdown。
 
-## How to use 
-1. Install `Anki-KaTeX-Markdown` addon.
-2. Download `_github-markdown.css` and place it to account media folder.
-3. Edit card template 
+## 使用指南
+1. 安装`Anki-KaTeX-Markdown`插件
+2. 下载 `_github-markdown.css` 样式文件，放到媒体文件目录.
+3. 修改卡片样式
     1. Front 
-        1. Surround contents with class `markdown-body`
-	    2. Import `_github-markdown.css` file.
+		1. 将`Front`用class为`markdown-body`的标签包围起来。
+	    2. 修改下方的JS导入`_github-markdown.css`样式文件.
 		![](./imgs/front.png)
     2. Back 
 	
-		Same as Front
+		与`Front`同样的操作
 		![](./imgs/back.png)
 	3. Style
 		
-		Add this two attributes.
+		加入两个限制页面宽度的属性。
 		```css
 		.markdown-body {
 			box-sizing: border-box;
@@ -33,12 +33,12 @@ This is an anki card template with markdown support using github markdown style.
 		```
 		![](./imgs/style.png)
 
-## Preview 
-1. List
+## 效果展示 
+1. 列表
 ![](./imgs/preview1.png)
-2. Link Quote Code Table
+2. 链接、引用、代码高亮、表格
 ![](./imgs/preview2.png)
-3. Formular Base64 images
+3. 公式、Base64编码的图片支持
 ![](./imgs/preview3.png)
 
 ## Reference
